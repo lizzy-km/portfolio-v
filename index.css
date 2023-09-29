@@ -1254,6 +1254,7 @@ html {
     left: 34px;
     top: 0;
     overflow: visible;
+    background-image: url('/images/header-bg-m.svg')
   }
 
   .header-shapes-mobile {
