@@ -21,7 +21,7 @@ html {
 }
 
 /* Desktop  */
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .template-1-mobile-main,
   .template-1-mobile-main * {
     box-sizing: border-box;
@@ -1211,7 +1211,7 @@ html {
 }
 
 /* Mobile  */
-@media (max-width: 700px) {
+@media (min-width: 375px) {
   .template-1-main,
   .template-1-main * {
     box-sizing: border-box;
