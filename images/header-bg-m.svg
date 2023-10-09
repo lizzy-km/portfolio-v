@@ -1,0 +1,13 @@
+ <svg
+          class="header-background-mobile"
+          width="375"
+          height="718"
+          viewBox="0 0 375 718"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0H375V718H126.4C83.1047 718 61.457 718 44.8049 709.842C28.8611 702.031 15.9686 689.139 8.15779 673.195C0 656.543 0 634.895 0 591.6V0Z"
+            fill="white"
+          />
+        </svg>
