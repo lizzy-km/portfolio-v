@@ -21,7 +21,7 @@ html {
 }
 
 /* Desktop  */
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .template-1-mobile-main,
   .template-1-mobile-main * {
     box-sizing: border-box;
@@ -1145,6 +1145,81 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: rotateM;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  .my-logo p {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @-webkit-keyframes rotate {
+    0% {
+      transform: rotate(-180deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @-moz-keyframes rotate {
+    0% {
+      transform: rotate(-180deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @-o-keyframes rotate {
+    0% {
+      transform: rotate(-180deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(-180deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @-webkit-keyframes rotateM {
+    0% {
+      transform: rotate(-360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @-moz-keyframes rotateM {
+    0% {
+      transform: rotate(-360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @-o-keyframes rotateM {
+    0% {
+      transform: rotate(-360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes rotateM {
+    0% {
+      transform: rotate(-360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
   }
 
   .item-navigation {
@@ -1211,7 +1286,7 @@ html {
 }
 
 /* Mobile  */
-@media (min-width: 375px) {
+@media (max-width: 700px) {
   .template-1-main,
   .template-1-main * {
     box-sizing: border-box;
@@ -1254,7 +1329,6 @@ html {
     left: 34px;
     top: 0;
     overflow: visible;
-    background-image: url('/images/header-bg-m.svg');
   }
 
   .header-shapes-mobile {
